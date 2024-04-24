@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google</title>
+  <script src="./tailwind.js"></script>
+</head>
+<body class="h-screen flex flex-col">
+
+<nav class="text-sm font-base text-right p-5 space-x-4 text-gray-600 font-medium">
+    <a href="#">Gmail</a>
+    <a href="#">Images</a>
+    <a href="#"><img src="./img/menu.png" alt="" class="w-4 h-4 inline-block" /></a>
+    <a href="#" class="bg-[#1B73E8] text-white px-6 py-2.5 rounded">Sign in</a>
+</nav>
+
+<main class="flex items-center place-content-center flex-1 w-full">
+
+  <div class="mx-auto max-w-4xl flex items-center flex-col space-y-5 w-[600px] pb-24">
+    <img src="img/logo.png" alt="Google" class="w-64 h-auto" />
+    <form class="w-full space-y-6">
+      <div class="border rounded-full px-4 py-3 flex space-x-4">
+        <img src="img/search.svg" alt="Search" class="w-5 h-5 mt-0.5" />
+        <input type="text" name="q" class="flex-1" />
+        <img src="img/mic.svg" alt="Search" class="w-5 h-5" />
+        <img src="img/camera.svg" alt="Search" class="w-5 h-5" />
+      </div>
+      <div class="flex  text-sm place-content-center space-x-4">
+          <button class="bg-gray-100 px-6 py-2.5 rounded">Google search</button>
+          <button class="bg-gray-100 px-6 py-2.5 rounded">I'm feeling lucky</button>
+      </div>
+      <div class="text-center text-sm">
+        Google offered in: <a href="#" class="text-indigo-600">Français</a>
+      </div>
+    </form>
+  </div>
+
+</main>
+
+<footer class="h-24 divide-y bg-zinc-100 px-8 py-4 text-gray-600 text-sm">
+  <div class="pb-3 font-medium">République Centrafricaine</div>
+  <div class="flex items-center place-content-between py-4">
+    <nav class="text-left space-x-4">
+      <a href="#">About</a>
+      <a href="#">Advertising</a>
+      <a href="#">Business</a>
+      <a href="#">How Search works</a>
+    </nav>
+    <nav class="text-right space-x-4">
+      <a href="#">Report inappropriate content</a>
+      <a href="#">Consumer information</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Settings</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
